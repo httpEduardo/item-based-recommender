@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RecoFoundry</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header>
+        <h1>RecoFoundry</h1>
+        <p>Item-item recommendations from implicit feedback.</p>
+      </header>
+      <section class="panel">
+        <label>User
+          <select id="userSelect"></select>
+        </label>
+        <div class="actions">
+          <button id="recommendButton">Recommend</button>
+          <button id="seedButton" class="ghost">Load sample data</button>
+        </div>
+      </section>
+      <section class="panel">
+        <h2>Recommendations</h2>
+        <ul id="results"></ul>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
