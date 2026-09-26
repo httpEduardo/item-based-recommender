@@ -1,11 +1,13 @@
-# RecoFoundry
+# Item Based Recommender
 
-RecoFoundry is a local recommender that uses item-item cosine similarity over implicit feedback.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+
+Item Based Recommender is a local recommender that uses item-item cosine similarity over implicit feedback.
 
 ## Quick start
 
 ```bash
-python -m app.server --port 5173
+python -m item_based_recommender.server --port 5173
 ```
 
 Open http://localhost:5173
